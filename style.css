@@ -1,3 +1,133 @@
+.iconita-burger{
+    display: inline-block;
+    padding-left: 130px;
+    padding-top: 20px;
+ 
+
+}
+
+.BH1{
+    padding-left: 65px;
+font-size:25PX; color: brown;
+font-style: inherit;
+padding-top: 5px;
+display: inline-block;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.BH2{
+    display: inline-block;
+    width:300px;
+    /* aici e un comentariu*/
+    
+}
+.BH3{
+    display: inline-block;
+    /* border: 2px solid black; */
+    /* box-shadow: 0 0 5px black; */
+}
+    
+.BH3 button{
+  background-color: burlywood;
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+.BH4{
+    display: inline-block;
+    /* border: 2px solid black; aice se creeaza o bordura */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* box-shadow: 0 0 5px black; */
+}
+ .BH4 button{
+  background-color: burlywood;
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+} 
+
+.BH5{
+    display: inline-block;
+   /* border: 2px solid black; */
+   padding-left: 20px;
+    padding-right: 20px;
+    /* box-shadow: 0 0 5px black; */
+} 
+ .BH5 button{
+  background-color: burlywood;
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+.BH6{
+    display: inline-block;
+    /* border: 2px solid black; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* box-shadow: 0 0 5px black; */
+}
+  .BH6 button{
+  background-color: burlywood;
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+.BH7{
+    display: inline-block;
+    /* border: 2px solid black; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* box-shadow: 0 0 5px black; */
+}
+  .BH7 button{
+  background-color: burlywood;
+  box-shadow: 0 0 5px black;
+  cursor: pointer;
+}
+
+
+.BH7-1{
+    
+    flex-direction: column;
+    float: left;
+}
+.BH8{
+border: 2px dashed black;
+margin-left: 150px;
+padding-left: 20px;
+width: 450px;
+height:70px;
+font-size: 20px;
+}
+.BH9{
+    font-size: 40px;
+    margin-left: 150px;
+    padding-left: 20px;
+    font-size: 60px;
+    font-family: fantasy ;
+}
+.BH10{
+display: inline-block;
+padding-left:250px;
+}
+/* astazi incepe cursul 1 din august*/
+
+.BH10-1{
+    display: inline-block;
+    width:300px;
+    padding-left: 300px
+}
+
+.BH11{
+display: inline-block;
+width: 300px;
+margin-left: -800px;
+}
+
+.BH12{
+
+}
 /* Resetare de bază */
 body {
   margin: 0;
@@ -87,3 +217,45 @@ p.subtitle {
 .order-btn:hover {
   background: #9f1239;
 }
+
+.rezervation{
+  position: relative;
+  isolation: isolate;
+  font-weight: bold;
+
+
+}
+
+.rezervari{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:white;
+  font-size:2rem;/* aceasta este o alta unitate de masura*/
+  font-weight:800px;/*grosimea caracterelor*/
+  text-align: center;/*pozitionarea textului in mijloc*/
+}
+
+/*30 august 2025*/
+
+#rezervari{
+  background-color:#e11d48;
+  padding: 30px;
+  margin: 50px auto;
+  width: 300px;
+  border: black solid 3px;
+  border-radius: 40px;/*rotunjirea colturilor chenarului*/
+  box-shadow: 0 0 19px;color:#000;
+   /* background-color:rgb(9, 130, 9);  */
+  
+}
+
+#rezervari input{
+  border-radius: 10px;
+}
+
+#rezervari button{
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
